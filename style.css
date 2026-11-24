@@ -104,14 +104,14 @@ animation-play-state: paused;
     margin-bottom: 6px;
 }
 
-.subititulo {
+.subtitulo {
     color: var(--texto-suave);
     margin-bottom: 32px;
 }
 
 .cards {
-    display: grip;
-    grid-template-columns: repeat(auto-fit, ninmax(220px, 1fr));
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
 }
 .card {
